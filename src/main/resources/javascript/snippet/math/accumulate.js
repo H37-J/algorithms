@@ -1,5 +1,5 @@
 const accumulate = (...nums) => {
-    const result =nums.reduce((acc, n) => [...acc, n + (acc.slice(-1)[0] || 0)], [] )
+    const result = nums.reduce((acc, n) => [...acc, n + (acc.slice(-1)[0] || 0)], [] )
     console.log(result)
 }
 
